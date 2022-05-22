@@ -1,0 +1,90 @@
+body {
+    background-color: #8CC0DE;
+    color: #A25B5B;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+h1,h2 {
+	color: #8CC0DE;
+	font-family: 'Bebas Neue';
+	font-size: 35px;
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	color: #FFD59E;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+
+}
+
+.card-white {
+	background-color: #FFD9C0;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-red {
+	background-color: #DEA057;
+	color: white;
+	padding: 12px 15px 8px;
+	border-radius: 4px;
+	font-weight: bold;
+}
+
+.btn-red:hover {
+	background-color: #FFFF;
+	color: #DEA057;
+
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #;
+}
+
+.list-inline i:hover {
+	color: #DEA057;
+}
+
+#introduction p {
+	margin-bottom: 30px;
+}
